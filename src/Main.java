@@ -3,12 +3,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int T = scan.nextInt();
+        String s = scan.nextLine().trim();
+        String[] ch = s.split(" ");
 
-        for(int i =0; i<T; i++) {
-            String S = scan.next();
-            System.out.print(S.charAt(0));
-            System.out.println(S.charAt(S.length()-1));
-        }
+        if(ch.length == 1 && ch[0].equals(""))
+            System.out.println(0);
+        else
+            System.out.println(ch.length);
     }
 }
