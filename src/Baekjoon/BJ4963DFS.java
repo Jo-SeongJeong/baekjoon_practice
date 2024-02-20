@@ -77,7 +77,6 @@ public class BJ4963DFS { // 메모리 : 13320kb, 시간 : 116ms
 		System.out.println(sb);
 	}
 
-
 	private static void dfs(int row, int col) {
 		map[row][col] = 0;
 		for(int d = 0; d < 8; d++) {
