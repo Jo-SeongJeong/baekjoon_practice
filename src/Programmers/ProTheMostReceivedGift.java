@@ -27,7 +27,7 @@ import java.util.Map;
  * 50 * 50
  */
 
-public class TheMostReceivedGift {
+public class ProTheMostReceivedGift {
     static int[][] adjMatrix;
     static int n;
     static Map<String, Integer> map;
